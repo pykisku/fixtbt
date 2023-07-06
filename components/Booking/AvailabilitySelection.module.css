@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .AvailabilitySelection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .localButton {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .localButton:selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .localButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .react_datepicker__input_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .react_datepicker_wrapper {
+    width: 100%;
+  }
+  
+  .react_datepicker {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .timeSlotsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+  
+  @media (max-width: 768px) {
+    .react-datepicker {
+      font-size: 1rem;
+    }
+  }
+  
